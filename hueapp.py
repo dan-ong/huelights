@@ -20,7 +20,7 @@ args = parser.parse_args()
 	"port":443
 }
 """
-with open("hue_config.txt") as f:
+with open("hue_config.json") as f:
 	hue_config = load(f)
 
 # refer http://web.archive.org/web/20161023150649/http://www.developers.meethue.com:80/documentation/hue-xy-values for colours
